@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeneralActivity"
+    android:orientation="vertical"
+    android:id="@+id/gen_lin_lay">
+    <androidx.appcompat.widget.Toolbar
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#A9BDB6B3" />
+
+<!--    <View-->
+<!--        android:id="@+id/view_left"-->
+<!--        android:layout_width="4dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/colorPrimaryDark"/>-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/generalList"
+        android:layout_below="@+id/toolbar"/>
+
+</RelativeLayout>
